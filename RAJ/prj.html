@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: calc(33% - 40px);
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+        }
+        .price {
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Product List</h1>
+
+<div class="product-list">
+    <div class="product">
+        <img src="scooty.jpg" alt="scooty">
+        <h2>scooty</h2>
+        <p>Description of product 1.</p>
+        <p class="price">$195s.99</p>
+    </div>
+    <div class="product">
+        <img src="bottle.jpg" alt="bottle">
+        <h2>bottles</h2>
+        <p>Description of product 2.</p>
+        <p class="price">$20.66</p>
